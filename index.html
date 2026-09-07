@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SmartBin Pro — AI-Powered Waste Management for Pakistan's Tourist Places</title>
+<meta name="description" content="SmartBin Pro: AI-powered, solar-driven smart waste station for beaches, parks and tourist hubs across Pakistan. Cleaner tourist places, one smart bin at a time." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<a class="skip-link" href="#problem">Skip to content</a>
+
+<!-- ============ TOP NAVIGATION ============ -->
+<header class="nav" id="top">
+  <div class="nav__inner container">
+    <a class="nav__brand" href="#top" aria-label="SmartBin Pro home">
+      <svg class="nav__logo" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+        <rect x="6" y="4" width="20" height="24" rx="3" fill="none" stroke="currentColor" stroke-width="2"/>
+        <path d="M6 9h20" stroke="currentColor" stroke-width="2"/>
+        <path d="M12 15v8M20 15v8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        <path d="M10 4l2-2h8l2 2" fill="none" stroke="currentColor" stroke-width="2"/>
+      </svg>
+      <span class="nav__name">SmartBin <em>Pro</em></span>
+    </a>
+
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#problem"  class="nav__link" data-navlink="problem">Problem</a>
+      <a href="#effect"   class="nav__link" data-navlink="effect">Effect</a>
+      <a href="#solution" class="nav__link" data-navlink="solution">Solution</a>
+      <a href="#working"  class="nav__link" data-navlink="working">Working</a>
+    </nav>
+
+    <div class="nav__actions">
+      <button class="nav__burger" id="navBurger" type="button" aria-expanded="false" aria-controls="mobileMenu" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+  <div class="nav__mobile" id="mobileMenu" hidden>
+    <a href="#problem"  class="nav__mlink" data-navlink="problem">Problem</a>
+    <a href="#effect"   class="nav__mlink" data-navlink="effect">Effect</a>
+    <a href="#solution" class="nav__mlink" data-navlink="solution">Solution</a>
+    <a href="#working"  class="nav__mlink" data-navlink="working">Working</a>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="hero" aria-label="SmartBin Pro introduction">
+    <div class="hero__bg" data-parallax>
+      <img src="assets/img/scene-beach.webp" alt="A Pakistani coastal beach at golden hour along the Arabian Sea, with a solar-topped SmartBin Pro on the promenade" />
+    </div>
+    <div class="hero__overlay" aria-hidden="true"></div>
+
+    <div class="hero__content container">
+      <p class="hero__eyebrow" data-reveal="up">Clean City &middot; Green City</p>
+      <h1 class="hero__title" data-reveal="up" data-reveal-delay="120">SmartBin&nbsp;Pro</h1>
+      <p class="hero__sub" data-reveal="up" data-reveal-delay="240">AI-Powered Waste Management for Pakistan&rsquo;s Tourist Places</p>
+      <p class="hero__tag" data-reveal="up" data-reveal-delay="360">Solving Pakistan&rsquo;s beach plastic crisis &mdash; one smart bin at a time, on beaches, parks &amp; tourist hubs.</p>
+
+      <ul class="hero__chips" role="list">
+        <li class="chip" data-reveal="up" data-reveal-delay="480">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 15c2-2 4-2 6 0s4 2 6 0 4-2 6 0M3 19c2-2 4-2 6 0s4 2 6 0 4-2 6 0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          Cleaner Beaches &amp; Parks
+        </li>
+        <li class="chip" data-reveal="up" data-reveal-delay="600">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M19.1 4.9L17 7M7 17l-2.1 2.1" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          Solar-Powered AI
+        </li>
+        <li class="chip" data-reveal="up" data-reveal-delay="720">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 8h16v4a2 2 0 000 4v4H4v-4a2 2 0 000-4V8z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M14 8v12" stroke="currentColor" stroke-width="2" stroke-dasharray="2 3"/></svg>
+          Reward System
+        </li>
+      </ul>
+
+      <p class="hero__meta" data-reveal="up" data-reveal-delay="840">Beaches &middot; Parks &middot; Tourist Hubs &middot; Sindh &amp; Balochistan Coastlines</p>
+    </div>
+  </section>
+
+  <!-- ============ PROBLEM ============ -->
+  <section class="section section--problem" id="problem" aria-labelledby="problem-title">
+    <div class="container">
+      <p class="eyebrow" data-reveal="up">Step 1 &mdash; The Problem</p>
+      <h2 class="h2" id="problem-title" data-reveal="up" data-reveal-delay="120">Pakistan&rsquo;s Coastal Plastic Crisis</h2>
+      <p class="lead" data-reveal="up" data-reveal-delay="240">
+        Beaches, parks and tourist hubs across Pakistan are on the front line. The numbers below are the
+        crisis our tourist places face every single day.
+      </p>
+
+      <!-- Metric count-up band -->
+      <div class="metrics" role="list" aria-label="Key crisis metrics">
+        <article class="metric" role="listitem" data-reveal="up" data-reveal-delay="0">
+          <p class="metric__value"><span data-count data-count-to="164000" data-count-format="comma">0</span></p>
+          <p class="metric__unit">tonnes/year</p>
+          <p class="metric__desc">Plastic enters Arabian Sea via Indus River</p>
+          <p class="metric__src">Schmidt et al., 2017</p>
+        </article>
+        <article class="metric" role="listitem" data-reveal="up" data-reveal-delay="120">
+          <p class="metric__value"><span data-count data-count-to="65">0</span><span class="metric__suffix">%</span></p>
+          <p class="metric__unit">of beach debris</p>
+          <p class="metric__desc">Is plastic &mdash; bottles, bags &amp; packaging</p>
+          <p class="metric__src">WWF-Pakistan 2019</p>
+        </article>
+        <article class="metric" role="listitem" data-reveal="up" data-reveal-delay="240">
+          <p class="metric__value"><span data-count data-count-to="6">0</span><span class="metric__suffix">th</span></p>
+          <p class="metric__unit">globally</p>
+          <p class="metric__desc">Pakistan&rsquo;s rank as plastic waste producer</p>
+          <p class="metric__src">World Pop. Review</p>
+        </article>
+        <article class="metric" role="listitem" data-reveal="up" data-reveal-delay="360">
+          <p class="metric__value"><span data-count data-count-to="88">0</span><span class="metric__suffix">%</span></p>
+          <p class="metric__unit">untreated</p>
+          <p class="metric__desc">Karachi wastewater discharged to Arabian Sea</p>
+          <p class="metric__src">WWF-Pakistan</p>
+        </article>
+      </div>
+
+      <!-- Field findings: 3D flip cards -->
+      <h3 class="h3 findings__title" data-reveal="up">Key Field Findings</h3>
+      <div class="findings">
+        <article class="flip" data-reveal="up" data-reveal-delay="0" tabindex="0">
+          <div class="flip__inner">
+            <div class="flip__face flip__face--front">
+              <p class="flip__kicker">Clifton &amp; Sandspit beaches (Karachi)</p>
+              <p class="flip__stat"><span data-count data-count-to="47">0</span>% <span class="flip__amp">&amp;</span> <span data-count data-count-to="45">0</span>%</p>
+              <p class="flip__hint">Flip for detail</p>
+            </div>
+            <div class="flip__face flip__face--back">
+              <p>Plastic makes up 47% and 45% of all debris &mdash; bottles, bags, packaging dominate every tide.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="flip" data-reveal="up" data-reveal-delay="120" tabindex="0">
+          <div class="flip__inner">
+            <div class="flip__face flip__face--front">
+              <p class="flip__kicker">Gwadar &amp; Kund Malir (Balochistan)</p>
+              <p class="flip__stat">Tourism declining</p>
+              <p class="flip__hint">Flip for detail</p>
+            </div>
+            <div class="flip__face flip__face--back">
+              <p>Abandoned fishing nets, dead turtles with plastic in stomachs, tourism already declining.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="flip" data-reveal="up" data-reveal-delay="240" tabindex="0">
+          <div class="flip__inner">
+            <div class="flip__face flip__face--front">
+              <p class="flip__kicker">Hawksbay sediment samples</p>
+              <p class="flip__stat"><span data-count data-count-to="100">0</span>% <span class="flip__amp">/</span> <span data-count data-count-to="85">0</span>%</p>
+              <p class="flip__hint">Flip for detail</p>
+            </div>
+            <div class="flip__face flip__face--back">
+              <p>100% of Hawksbay sediment samples contain microplastics &mdash; 85% are fibres entering the food chain through fish.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="flip" data-reveal="up" data-reveal-delay="360" tabindex="0">
+          <div class="flip__inner">
+            <div class="flip__face flip__face--front">
+              <p class="flip__kicker">Karachi daily waste</p>
+              <p class="flip__stat">12&ndash;13K <span class="flip__unit">tonnes/day</span></p>
+              <p class="flip__hint">Flip for detail</p>
+            </div>
+            <div class="flip__face flip__face--back">
+              <p>Pakistan generates 12&ndash;13K tonnes of waste per day in Karachi alone; up to 40% reaches the sea uncollected.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="flip" data-reveal="up" data-reveal-delay="480" tabindex="0">
+          <div class="flip__inner">
+            <div class="flip__face flip__face--front">
+              <p class="flip__kicker">Indus &rarr; Arabian Sea</p>
+              <p class="flip__stat"><span data-count data-count-to="10000" data-count-format="comma">0</span> <span class="flip__unit">MT/yr</span></p>
+              <p class="flip__hint">Flip for detail</p>
+            </div>
+            <div class="flip__face flip__face--back">
+              <p>10,000 MT of microplastics flow from the Indus into the Arabian Sea every year.</p>
+              <p class="flip__src">Frontiers in Marine Science, 2026</p>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <p class="sources" data-reveal="up">Sources: Schmidt et al. (2017) | WWF-Pakistan (2019) | Ecol. Eng. J. (2025) | J. Coastal Research (2024) | Frontiers Marine Sci (2026)</p>
+    </div>
+  </section>
+
+  <!-- ============ EFFECT ============ -->
+  <section class="section section--effect" id="effect" aria-labelledby="effect-title">
+    <div class="effect__bg" aria-hidden="true">
+      <img src="assets/img/scene-park.webp" alt="" />
+    </div>
+    <div class="effect__overlay" aria-hidden="true"></div>
+
+    <div class="container">
+      <p class="eyebrow" data-reveal="up">The Effect &mdash; Why It Works</p>
+      <h2 class="h2" id="effect-title" data-reveal="up" data-reveal-delay="120">Triple-Impact: Environment &middot; Economy &middot; Behaviour</h2>
+
+      <div class="impact" role="list">
+        <article class="stat-card" role="listitem" data-stat data-reveal-delay="0">
+          <span class="stat-card__edge" aria-hidden="true"></span>
+          <div class="stat-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M3 15c2-2 4-2 6 0s4 2 6 0 4-2 6 0M3 19c2-2 4-2 6 0s4 2 6 0 4-2 6 0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <h3 class="h3">Cleaner Coasts</h3>
+          <ul role="list">
+            <li>Coastal waste reduced immediately at point of disposal</li>
+            <li>Fishermen incentivised to collect ocean plastic &amp; bring it ashore</li>
+            <li>Each full bin prevents 300&ndash;500 kg of waste from reaching the sea</li>
+            <li>Addresses Karachi&rsquo;s chronic 40% waste collection gap directly</li>
+          </ul>
+        </article>
+
+        <article class="stat-card" role="listitem" data-stat data-reveal-delay="120">
+          <span class="stat-card__edge" aria-hidden="true"></span>
+          <div class="stat-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M12 3v18M8 7h6a3 3 0 010 6H9a3 3 0 000 6h7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <h3 class="h3">Economic Uplift</h3>
+          <ul role="list">
+            <li>Fishermen earn from ocean waste collection &mdash; not just fish</li>
+            <li>Coupons drive foot traffic to nearby food stalls &amp; small vendors</li>
+            <li>Poor coastal vendors gain customers &mdash; income rises organically</li>
+            <li>Locally built &amp; maintained &mdash; creates local jobs, not imports</li>
+          </ul>
+        </article>
+
+        <article class="stat-card" role="listitem" data-stat data-reveal-delay="240">
+          <span class="stat-card__edge" aria-hidden="true"></span>
+          <div class="stat-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M9 3h6v3H9zM12 6v3m-5 0h10l1 12H6L7 9z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+          </div>
+          <h3 class="h3">Behaviour Change</h3>
+          <ul role="list">
+            <li>Financial reward trains the habit: &lsquo;throw litter = earn discount&rsquo;</li>
+            <li>Once rewarded regularly, citizens carry the habit beyond beaches</li>
+            <li>IoT data lets authorities track hotspots and improve collection</li>
+            <li>Community ownership grows &mdash; people protect what benefits them</li>
+          </ul>
+        </article>
+      </div>
+
+      <p class="effect__close" data-reveal="up">SmartBin Pro turns waste disposal from a burden into a community reward loop.</p>
+    </div>
+  </section>
+
+  <!-- ============ SOLUTION ============ -->
+  <section class="section section--solution" id="solution" aria-labelledby="solution-title">
+    <div class="container">
+      <p class="eyebrow" data-reveal="up">Step 2 &mdash; The Solution</p>
+      <h2 class="h2" id="solution-title" data-reveal="up" data-reveal-delay="120">SmartBin Pro: AI-Powered Solar Waste Station</h2>
+      <p class="lead" data-reveal="up" data-reveal-delay="240">A single rugged station for beaches, parks and tourist hubs &mdash; solar-powered, self-sorting and self-reporting.</p>
+
+      <div class="features" role="list">
+        <article class="feature" role="listitem" data-reveal="up" data-reveal-delay="0">
+          <div class="feature__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M19.1 4.9L17 7M7 17l-2.1 2.1" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div>
+          <h3 class="h3">Solar-Powered</h3>
+          <p>100% off-grid operation &mdash; no electricity bills, works day &amp; night</p>
+        </article>
+        <article class="feature" role="listitem" data-reveal="up" data-reveal-delay="120">
+          <div class="feature__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="7" y="7" width="10" height="10" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 3v4M12 17v4M3 12h4M17 12h4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div>
+          <h3 class="h3">AI Waste Detection</h3>
+          <p>Smart sensors detect, sort &amp; classify recyclable vs non-recyclable waste automatically</p>
+        </article>
+        <article class="feature" role="listitem" data-reveal="up" data-reveal-delay="240">
+          <div class="feature__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 5h16M6 5v6l4 3v5h4v-5l4-3V5" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg></div>
+          <h3 class="h3">Auto-Compression</h3>
+          <p>Compresses waste 3&times;&ndash;5&times;; stores 300&ndash;500 kg equivalent vs 100 kg in normal bins</p>
+        </article>
+        <article class="feature" role="listitem" data-reveal="up" data-reveal-delay="360">
+          <div class="feature__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 20a8 8 0 008-8M12 20a8 8 0 01-8-8M12 20V9" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="6" r="2" fill="currentColor"/></svg></div>
+          <h3 class="h3">IoT Municipal Alert</h3>
+          <p>Bin sends automatic alert to nearest municipal committee when full &mdash; zero manual monitoring</p>
+        </article>
+        <article class="feature" role="listitem" data-reveal="up" data-reveal-delay="480">
+          <div class="feature__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 8h16v4a2 2 0 000 4v4H4v-4a2 2 0 000-4V8z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M14 8v12" stroke="currentColor" stroke-width="2" stroke-dasharray="2 3"/></svg></div>
+          <h3 class="h3">Reward Coupon Printer</h3>
+          <p>Every depositor receives a printed coupon redeemable at nearby food stalls &amp; shops</p>
+        </article>
+        <article class="feature" role="listitem" data-reveal="up" data-reveal-delay="600">
+          <div class="feature__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3l8 4v6c0 5-4 7-8 8-4-1-8-3-8-8V7l8-4z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg></div>
+          <h3 class="h3">Stainless Steel Body</h3>
+          <p>Dust-resistant acid-proof exterior; installed under existing CCTV cameras for security</p>
+        </article>
+      </div>
+
+      <p class="size-line" data-reveal="up">Physical size: 240&ndash;300 L &nbsp;|&nbsp; After compression: handles 300&ndash;500 kg equivalent waste</p>
+
+      <!-- Product gallery: scroll-linked scale/rotate -->
+      <h3 class="h3 gallery__title" data-reveal="up">The Station, Up Close</h3>
+      <div class="gallery" data-gallery>
+        <figure class="gallery__item" data-gallery-item>
+          <img src="assets/img/bin-front.webp" alt="SmartBin Pro front view: brushed stainless steel solar waste station with a coupon printer slot and separate recyclable and non-recyclable compartments" />
+          <figcaption>Front view &mdash; dual compartment &amp; coupon printer</figcaption>
+        </figure>
+        <figure class="gallery__item" data-gallery-item>
+          <img src="assets/img/bin-perspective.webp" alt="SmartBin Pro three-quarter view: stainless steel body etched Clean City Green City, solar panel top, coupon slip printing, recyclable and non-recyclable doors" />
+          <figcaption>Perspective view &mdash; Clean City &middot; Green City</figcaption>
+        </figure>
+      </div>
+
+      <!-- Exploded internals with SVG connector draws -->
+      <h3 class="h3 exploded__title" data-reveal="up">Inside the Station</h3>
+      <div class="exploded" data-exploded>
+        <svg class="exploded__svg" viewBox="0 0 900 620" role="img"
+             aria-label="Exploded diagram of SmartBin Pro internals: solar panel array, waste detection sensors, auto-compression chamber, coupon printer, dual compartment system, IoT municipal alert module and maintenance access door">
+          <!-- connector lines (drawn on reveal) -->
+          <g class="exploded__connectors" fill="none" stroke="var(--teal-accent)" stroke-width="2" stroke-dasharray="none">
+            <path class="conn" data-draw d="M450 60 L450 120" />
+            <path class="conn" data-draw d="M450 150 L450 200" />
+            <path class="conn" data-draw d="M450 240 L450 290" />
+            <path class="conn" data-draw d="M450 330 L450 380" />
+            <path class="conn" data-draw d="M450 420 L450 470" />
+            <path class="conn" data-draw d="M640 250 L700 250" />
+            <path class="conn" data-draw d="M640 430 L700 430" />
+          </g>
+
+          <!-- exploded parts -->
+          <g class="part" data-part="0">
+            <rect x="330" y="20" width="240" height="40" rx="6" fill="#0b1f33" stroke="#34E0D1" stroke-width="2"/>
+            <g stroke="#34E0D1" stroke-width="1.5">
+              <path d="M370 20v40M410 20v40M450 20v40M490 20v40M530 20v40"/>
+            </g>
+            <text x="200" y="45" class="lbl lbl--left">Solar Panel Array</text>
+          </g>
+          <g class="part" data-part="1">
+            <rect x="360" y="120" width="180" height="30" rx="6" fill="#0b1f33" stroke="#16C3B1" stroke-width="2"/>
+            <circle cx="390" cy="135" r="6" fill="#16C3B1"/><circle cx="450" cy="135" r="6" fill="#16C3B1"/><circle cx="510" cy="135" r="6" fill="#16C3B1"/>
+            <text x="200" y="140" class="lbl lbl--left">Waste Detection Sensors</text>
+          </g>
+          <g class="part" data-part="2">
+            <rect x="340" y="200" width="220" height="40" rx="6" fill="#0b1f33" stroke="#16C3B1" stroke-width="2"/>
+            <path d="M360 220h180M380 210v20M420 210v20M460 210v20M500 210v20" stroke="#34E0D1" stroke-width="2"/>
+            <text x="200" y="225" class="lbl lbl--left">Auto-Compression Chamber</text>
+          </g>
+          <g class="part" data-part="3">
+            <rect x="370" y="290" width="160" height="40" rx="6" fill="#0b1f33" stroke="#D4AF37" stroke-width="2"/>
+            <rect x="430" y="300" width="40" height="20" rx="3" fill="#E9F2F7"/>
+            <text x="200" y="315" class="lbl lbl--left">Reward Coupon Printer</text>
+          </g>
+          <g class="part" data-part="4">
+            <rect x="330" y="380" width="110" height="90" rx="6" fill="#12365e" stroke="#34E0D1" stroke-width="2"/>
+            <rect x="460" y="380" width="110" height="90" rx="6" fill="#1a2530" stroke="#98A5B0" stroke-width="2"/>
+            <text x="385" y="430" class="lbl lbl--center">Recyclable</text>
+            <text x="515" y="430" class="lbl lbl--center">Non-Recyclable</text>
+            <text x="200" y="425" class="lbl lbl--left">Dual Compartment System</text>
+          </g>
+          <g class="part" data-part="5">
+            <rect x="700" y="220" width="150" height="60" rx="8" fill="#0b1f33" stroke="#16C3B1" stroke-width="2"/>
+            <path d="M730 250a20 20 0 0140 0M740 250a10 10 0 0120 0" fill="none" stroke="#34E0D1" stroke-width="2"/>
+            <text x="775" y="300" class="lbl lbl--center">IoT Municipal Alert</text>
+          </g>
+          <g class="part" data-part="6">
+            <rect x="700" y="400" width="150" height="60" rx="8" fill="#0b1f33" stroke="#98A5B0" stroke-width="2"/>
+            <rect x="760" y="420" width="30" height="20" rx="3" fill="none" stroke="#98A5B0" stroke-width="2"/>
+            <text x="775" y="480" class="lbl lbl--center">Maintenance Access Door</text>
+          </g>
+        </svg>
+        <ul class="exploded__legend" role="list">
+          <li data-reveal="up" data-reveal-delay="0">Fill Level Sensors</li>
+          <li data-reveal="up" data-reveal-delay="120">IoT Enabled Alerts</li>
+          <li data-reveal="up" data-reveal-delay="240">Solar Powered</li>
+          <li data-reveal="up" data-reveal-delay="360">Auto Coupon Printer</li>
+          <li data-reveal="up" data-reveal-delay="480">Dual Compartment System</li>
+          <li data-reveal="up" data-reveal-delay="600">Smart City Integration</li>
+        </ul>
+      </div>
+
+      <h3 class="h3 deploy__title" data-reveal="up">Technical Design &amp; Deployment Strategy</h3>
+      <div class="deploy" role="list">
+        <article class="deploy__card" role="listitem" data-reveal="up" data-reveal-delay="0">
+          <h4>Locally Manufactured</h4>
+          <p>Built with local but durable materials &mdash; no imported heavy machinery; affordable, practical, repairable by local technicians</p>
+        </article>
+        <article class="deploy__card" role="listitem" data-reveal="up" data-reveal-delay="120">
+          <h4>Dual-Compartment System</h4>
+          <p>Separate slots for Recyclable and Non-Recyclable waste &mdash; users guided by clear labels</p>
+        </article>
+        <article class="deploy__card" role="listitem" data-reveal="up" data-reveal-delay="240">
+          <h4>Stainless Steel Exterior</h4>
+          <p>Acid-proof, dust-resistant casing withstands coastal salt air and monsoon weather year-round</p>
+        </article>
+        <article class="deploy__card" role="listitem" data-reveal="up" data-reveal-delay="360">
+          <h4>Installed Under CCTV Zones</h4>
+          <p>Each bin is sited where surveillance cameras already exist &mdash; printer and electronics protected from theft</p>
+        </article>
+        <article class="deploy__card" role="listitem" data-reveal="up" data-reveal-delay="480">
+          <h4>Maintenance Access Door</h4>
+          <p>Lockable side panel allows technicians to service internal components quickly without vandalism risk</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ WORKING ============ -->
+  <section class="section section--working" id="working" aria-labelledby="working-title">
+    <div class="container">
+      <p class="eyebrow" data-reveal="up">The Working</p>
+      <h2 class="h2" id="working-title" data-reveal="up" data-reveal-delay="120">From Litter to Reward, Automatically</h2>
+      <p class="lead" data-reveal="up" data-reveal-delay="240">Five steps run on solar power alone &mdash; no grid, no manual monitoring, no operator on site.</p>
+
+      <ol class="steps" role="list">
+        <li class="step" data-reveal="up" data-reveal-delay="0">
+          <span class="step__num">01</span>
+          <h3 class="h3">Detect &amp; Sort</h3>
+          <p>Smart sensors detect, sort &amp; classify recyclable vs non-recyclable waste automatically</p>
+        </li>
+        <li class="step" data-reveal="up" data-reveal-delay="120">
+          <span class="step__num">02</span>
+          <h3 class="h3">Compress</h3>
+          <p>Compresses waste 3&times;&ndash;5&times;; stores 300&ndash;500 kg equivalent vs 100 kg in normal bins</p>
+        </li>
+        <li class="step" data-reveal="up" data-reveal-delay="240">
+          <span class="step__num">03</span>
+          <h3 class="h3">Alert</h3>
+          <p>Bin sends automatic alert to nearest municipal committee when full &mdash; zero manual monitoring</p>
+        </li>
+        <li class="step" data-reveal="up" data-reveal-delay="360">
+          <span class="step__num">04</span>
+          <h3 class="h3">Reward</h3>
+          <p>Every depositor receives a printed coupon redeemable at nearby food stalls &amp; shops</p>
+        </li>
+        <li class="step" data-reveal="up" data-reveal-delay="480">
+          <span class="step__num">05</span>
+          <h3 class="h3">Redeem &amp; Repeat</h3>
+          <p>Coupons drive foot traffic to nearby food stalls &amp; small vendors &mdash; the habit loops</p>
+        </li>
+      </ol>
+    </div>
+
+    <!-- Coupon timeline: scroll-driven steps with print micro-animation -->
+    <div class="coupon" data-coupon>
+      <div class="coupon__stage container">
+        <p class="coupon__eyebrow">Reward Coupon Journey</p>
+        <h3 class="h3 coupon__title">Every deposit prints a reward</h3>
+
+        <div class="coupon__machine" aria-hidden="true">
+          <div class="coupon__body">
+            <div class="coupon__slot"></div>
+            <div class="coupon__slip" data-coupon-slip>
+              <span class="coupon__slip-line"></span>
+              <span class="coupon__slip-line"></span>
+              <span class="coupon__slip-qr"></span>
+            </div>
+          </div>
+          <p class="coupon__machine-label">Auto Coupon Printer</p>
+        </div>
+
+        <ol class="coupon__steps" role="list" data-coupon-steps>
+          <li class="coupon__step" data-cstep="0">Deposit &mdash; waste sorted &amp; classified</li>
+          <li class="coupon__step" data-cstep="1">Compress &mdash; 3&times;&ndash;5&times; more stored</li>
+          <li class="coupon__step" data-cstep="2">Print &mdash; coupon slides out</li>
+          <li class="coupon__step" data-cstep="3">Redeem &mdash; at nearby food stalls &amp; shops</li>
+        </ol>
+
+        <div class="coupon__progress" aria-hidden="true"><span data-coupon-bar></span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ HOW IT WORKS FLOW ============ -->
+  <section class="section section--flow" id="flow" aria-labelledby="flow-title">
+    <div class="container">
+      <p class="eyebrow" data-reveal="up">How It Works</p>
+      <h2 class="h2" id="flow-title" data-reveal="up" data-reveal-delay="120">From Bottle to Reward in Three Steps</h2>
+
+      <div class="flow" role="list" aria-label="How SmartBin Pro works, step by step">
+        <figure class="flow__step" role="listitem" data-reveal="up" data-reveal-delay="0">
+          <img src="assets/img/step-insert.jpg" alt="A boy inserting a plastic bottle into the round opening of a solar-topped SmartBin Pro on a street" />
+          <figcaption>Insert Plastic Bottle</figcaption>
+        </figure>
+
+        <span class="flow__arrow" data-reveal="up" data-reveal-delay="60" aria-hidden="true">
+          <svg viewBox="0 0 48 24" focusable="false"><path d="M2 12h38m0 0l-8-8m8 8l-8 8" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </span>
+
+        <figure class="flow__step" role="listitem" data-reveal="up" data-reveal-delay="120">
+          <img src="assets/img/step-coupon.jpg" alt="The same boy holding a printed discount coupon beside the SmartBin Pro" />
+          <figcaption>Get Discount Coupon</figcaption>
+        </figure>
+
+        <span class="flow__arrow" data-reveal="up" data-reveal-delay="180" aria-hidden="true">
+          <svg viewBox="0 0 48 24" focusable="false"><path d="M2 12h38m0 0l-8-8m8 8l-8 8" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </span>
+
+        <figure class="flow__step" role="listitem" data-reveal="up" data-reveal-delay="240">
+          <img src="assets/img/step-redeem.jpg" alt="The boy handing the coupon to a vendor at a local food stall and receiving a snack" />
+          <figcaption>Redeem at Shop</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container footer__inner">
+    <div class="footer__brand">
+      <p class="footer__tag">Clean City &middot; Green City</p>
+      <p class="footer__line">Pakistan&rsquo;s beaches deserve better than plastic. SmartBin Pro makes that possible &mdash; today, with local hands.</p>
+    </div>
+    <div class="footer__meta">
+      <p class="footer__sources">Sources: WWF-Pakistan | Schmidt et al. 2017 | Frontiers Marine Sci 2026 | Ecol. Eng. J. 2025 | J. Coastal Research 2024 | Arab News | Express Tribune</p>
+      <p class="footer__submission">Project submission: Alibaba Cloud AI Hackathon Pakistan 2026</p>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
